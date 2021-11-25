@@ -8,7 +8,6 @@ public class movieArchive {
         this.title = title;
         this.releaseDate= releaseDate;
         this.idCode = idCode;
-        this.rating = rating;
         this.hold = hold;
     }
 
