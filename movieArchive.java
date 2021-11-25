@@ -4,7 +4,7 @@ public class movieArchive {
     private int idCode;
     private Boolean hold; //not sure about this
 
-    public movieArchive(String title, int releaseDate, int idCode, int rating, Boolean hold) {
+    public movieArchive(String title, int releaseDate, int idCode, Boolean hold) {
         this.title = title;
         this.releaseDate= releaseDate;
         this.idCode = idCode;
