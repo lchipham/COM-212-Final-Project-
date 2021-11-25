@@ -20,12 +20,12 @@ public class QueueA {
 		return arrayQ[front];
 	}
 
-	public Node dequeue() {
-		int temp = front;
-		front = (front + 1) % 100;
-		n = n - 1;
-		return arrayQ[temp];	
-	}
+// 	public Node dequeue() {
+// 		int temp = front;
+// 		front = (front + 1) % 100;
+// 		n = n - 1;
+// 		return arrayQ[temp];	
+// 	}
 
 	public void enqueue(Node x) {
 		int end = (front + n) % 100;
