@@ -25,5 +25,6 @@ public class TestingProgram {
         } else {
             System.out.println("Watch Again?:");
         }     
+        userInput.close();
     }
 }
